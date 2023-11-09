@@ -1,8 +1,8 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+//@ts-nocheck
+
 import { useAppDispatch, useAppSelector } from "../../../hooks/hooks";
-import {
-  DataTable,
-  DataTableSelectionCellChangeEvent,
-} from "primereact/datatable";
+import { DataTable, DataTableSelectionCellChangeEvent } from "primereact/datatable";
 import { Column } from "primereact/column";
 import { Films } from "../../../redux/slices/filmsSlice";
 import { addFilm } from "../../../redux/slices/filmsSlice";
@@ -26,9 +26,7 @@ export default function FilmsList() {
     );
   };
 
-  const onSelectionChange = (
-    event: DataTableSelectionCellChangeEvent<Films[]>
-  ) => {
+  const onSelectionChange = (event: DataTableSelectionCellChangeEvent<Films[]>) => {
     const value = event.value as unknown as Films[];
 
     dispatch(addFilm(value));

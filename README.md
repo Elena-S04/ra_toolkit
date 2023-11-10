@@ -1,7 +1,3 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/9epbhgp9841obx7p?svg=true)](https://ci.appveyor.com/project/Elena-S04/ra-toolkit)
-
-https://elena-s04.github.io/ra_toolkit/
-
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
